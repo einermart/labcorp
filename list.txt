@@ -1,3 +1,6 @@
-Name: John
-Last: Smith
-Email:jsmith@gmail.com
+awx-operator:
+  platform:
+    deploy: true
+postgresql:
+  platform:
+    deploy: true
