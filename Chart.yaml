@@ -6,7 +6,7 @@ description: awx-operator helm chart
 type: application
 dependencies:
   - name: awx-operator
-    version: 2.7.2
+    version: 2.9.0
     condition: awx-operator.platform.deploy
     repository: "https://ansible.github.io/awx-operator/"
   - name: postgresql
