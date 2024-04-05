@@ -10,6 +10,6 @@ dependencies:
     condition: awx-operator.platform.deploy
     repository: "https://ansible.github.io/awx-operator/"
   - name: postgresql
-    version: "12.10.0"
+    version: "16.2.0"
     condition: postgresql.platform.deploy
     repository: "oci://registry-1.docker.io/bitnamicharts"
